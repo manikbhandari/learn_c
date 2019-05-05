@@ -29,7 +29,7 @@ int htoi(char s[])
 
 int main()
 {
-    char str[] = "0xA\0";
+    char str[] = "0xA";
     printf("%d\n", htoi(str));
     return 0;
 }
